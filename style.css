@@ -18,6 +18,12 @@ header {
     border-bottom: 5px solid #0056b3;
 }
 
+header img {
+    width: 150px; /* Adjust this value to your preferred width */
+    height: 150px; /* Adjust this value to your preferred height */
+    border-radius: 50%; /* For a circular profile picture */
+}
+
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
