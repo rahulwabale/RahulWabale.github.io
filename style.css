@@ -1,21 +1,22 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* Basic styles */
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #f8f8f8;
     color: #333;
 }
 
 header {
-    background-color: #1a1a1a;
+    background-color: #007bff;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
-    border-bottom: 5px solid #007bff;
+    padding: 50px 0;
+    border-bottom: 5px solid #0056b3;
+    position: relative;
 }
 
 header img {
@@ -23,32 +24,35 @@ header img {
     height: 150px;
     border-radius: 50%;
     border: 5px solid #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 5px;
 }
 
 header p {
     font-size: 18px;
-    opacity: 0.8;
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 h2 {
     color: #007bff;
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
 section {
@@ -77,8 +81,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #f0f0f0;
 }
 
 .social-links {
@@ -89,15 +92,63 @@ footer {
 
 .social-links li {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .social-links a {
     font-size: 24px;
-    color: #007bff;
+    color: #333;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #0056b3;
+    color: #007bff;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    header img {
+        width: 100px;
+        height: 100px;
+        bottom: -50px;
+    }
+    
+    header h1 {
+        font-size: 28px;
+    }
+    
+    header p {
+        font-size: 16px;
+    }
+    
+    main {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    header img {
+        width: 150px;
+        height: 150px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
 }
