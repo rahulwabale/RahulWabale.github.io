@@ -19,8 +19,8 @@ header {
 }
 
 header .profile-image {
-    width: 150px; /* Adjust the width to your preference */
-    height: 150px; /* Adjust the height to your preference */
+    width: 100px; /* Adjust the width to your preference */
+    height: 100px; /* Adjust the height to your preference */
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
