@@ -1,23 +1,21 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* Basic styles */
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #fff;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 header {
-    background-color: #fbb040;
+    background-color: #007bff;
+    color: #fff;
     text-align: center;
-    padding: 100px 0;
-    border-bottom: 5px solid #007bff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 50px 0;
+    border-bottom: 5px solid #0056b3;
 }
 
 header img {
@@ -25,34 +23,31 @@ header img {
     height: 150px;
     border-radius: 50%;
     border: 5px solid #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 42px;
-    margin: 10px 0;
-    text-align: center;
+    font-size: 36px;
+    margin-bottom: 5px;
 }
 
 header p {
     font-size: 18px;
-    opacity: 0.8;
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 h2 {
-    color: #fbb040;
-    font-size: 32px;
-    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
 section {
@@ -81,7 +76,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1a1a1a;
+    background-color: #f0f0f0;
 }
 
 .social-links {
@@ -92,45 +87,15 @@ footer {
 
 .social-links li {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .social-links a {
     font-size: 24px;
-    color: #fbb040;
+    color: #333;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #eaa319;
-}
-
-/* Media Queries */
-@media (max-width: 767px) {
-    header {
-        padding: 50px 0;
-    }
-
-    header img {
-        width: 120px;
-        height: 120px;
-    }
-
-    header h1 {
-        font-size: 32px;
-        margin: 10px 0;
-    }
-
-    header p {
-        font-size: 16px;
-    }
-
-    main {
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
+    color: #007bff;
 }
