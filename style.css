@@ -19,17 +19,18 @@ header {
 }
 
 header .profile-image {
-    width: 100px; /* Adjust the width to your preference */
-    height: 100px; /* Adjust the height to your preference */
+    width: 150px; /* Adjust the width to your preference */
+    height: 150px; /* Adjust the height to your preference */
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
     background-color: #fff;
 }
 
-header img {
+header .profile-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 header h1 {
